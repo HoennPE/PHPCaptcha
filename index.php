@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <title>HoennPE Captcha Verification</title>
@@ -9,9 +8,11 @@
             background-color: #202124;
             color: white;
         }
-
         a {
             color: #91FFFF;
+        }
+        .red {
+            color: red;
         }
     </style>
     <script type='text/javascript'>
@@ -73,7 +74,7 @@
         <input type="text" name="dn" placeholder="princepines" required>
         <input type="number" name="dt" placeholder="5041" required min="0001" max="9999">
     </div>
-    <p><i>* required</i></p>
+    <p class="red"><i>* required</i></p>
     <input type="submit" value="Get Captcha">
 </form>
 <hr>
