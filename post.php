@@ -7,18 +7,18 @@ $ign = $_POST['ign'];
 
 // discord webhook
 
-$webhookurl = "https://discord.com/api/webhooks/864532208101490730/LQrFCw7cLK4vgy_L0gb5H_nlOoKdsMx2N18ewzVodc0bCYuhBRUtSbfOSYbKAhSZGMpZ";
+$webhookurl = "WEBHOOK URL";
 $timestamp = date("c", strtotime("now"));
 $json_data = json_encode([
-    "content" => "compare this to application form submitted here. <@&851719052539592724> <@&860516510819811358>",
-    "username" => "HoennPE Verifier",
+    "content" => "YOUR CONTENT",
+    "username" => "PHPCaptcha",
     "avatar_url" => "https://i.imgur.com/V78VMj1.png",
     "tts" => false,
     "embeds" => [
         [
-            "title" => "Verify",
+            "title" => "TITLE",
             "type" => "rich",
-            "description" => "Please Verify if these are match on Verification Application:\nGamertag: " . $ign . "\nDiscord: " . $dn ."#". $dt ."\nCaptcha: ". $captcha ." ",
+            "description" => "DESCRIPTION",
             "timestamp" => $timestamp,
             "color" => hexdec("91ffff"),
             "footer" => [
