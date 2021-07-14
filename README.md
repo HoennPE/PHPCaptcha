@@ -1,5 +1,5 @@
 # PHPCaptcha
-A Browser based Captcha with a lot of security features + Discord Webhook Integration
+A Browser based Captcha Generator with a lot of security features + Discord Webhook Integration
 
 ## How to use
 Simply clone this repository and put the files on the root of webserver
