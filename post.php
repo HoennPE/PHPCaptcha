@@ -47,6 +47,7 @@ curl_close($ch);
 <html lang="en">
 <head>
     <title>HoennPE Captcha Verification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="main.css" rel="stylesheet">
     <script type='text/javascript' src="restrict.js"></script>
 </head>
