@@ -10,6 +10,10 @@ Simply clone this repository and put the files on the root of webserver
 
 **Note: you can customize everything, but you need to follow the guidelines from the LICENSE file**
 
+## Upcoming updates
+- Integrated MySQL database (Inserting captcha and data to database)
+- Discord Bot for Verification
+
 ### Developer
 - princepines
 
