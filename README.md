@@ -1,6 +1,9 @@
 # PHPCaptcha
 A Browser based Captcha Generator with a lot of security features + Discord Webhook Integration
 
+## DISCONTINUE NOTICE
+> I will discontinue the development of **v1 of PHPCaptcha** to give way to _more and functional v2, with integrated MySQL, and discord bot for verfication of users_.
+
 ## How to use
 Simply clone this repository and put the files on the root of webserver
 
@@ -9,10 +12,6 @@ Simply clone this repository and put the files on the root of webserver
 - Discord Essentials (Name, avatar, Message, Embeds, etc.) - post.php
 
 **Note: you can customize everything, but you need to follow the guidelines from the LICENSE file**
-
-## Upcoming updates
-- Integrated MySQL database (Inserting captcha and data to database)
-- Discord Bot for Verification
 
 ### Developer
 - princepines
